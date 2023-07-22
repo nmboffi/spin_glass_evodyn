@@ -15,7 +15,7 @@ The data analysis routines are written in Python and are built upon standard sci
 ## Usage
 The simulation package can be compiled by running ``make``.
 
-The executable ``lenski_main`` can be use to run a microbial evolution experiment *in-silico*. By default it splits all replicates over all available threads. If you want to use less, cap the number of threads using the ``OMP_NUM_THREADS`` environment variable.
+The executable ``lenski_main`` can be use to run a microbial evolution experiment *in-silico*. By default it splits replicate simulations over all available threads. If you want to use less threads, cap the number of threads using the ``OMP_NUM_THREADS`` environment variable.
 
 The executables ``lenski_vary_epi`` and ``lenski_vary_clonal`` may be used to reproduce the results of the eLife publication, sweeping over the strength of epistasis and the strength of clonal interference.
 

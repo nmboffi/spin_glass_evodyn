@@ -6,7 +6,7 @@ The code in this repository is also an extensive simulation environment for micr
 The folder ``py`` contains many useful routines for processing the output simulation data. Some of these are directly used for producing the publication figures, while others are useful for exploratory data analysis.
 
 ## Installation
-The main simulation package requires ``openmp`` and ``GSL``; both can be installed using standard package managers.
+The main simulation package requires ``openmp``, ``boost``, and ``GSL``; both can be installed using standard package managers.
 
 On Mac, ``openmp`` is not supported by the default C++ compiled provided by XCode. The simplest way to proceed is to install ``gcc`` via a package manager such as ``homebrew`` and compile with the corresponding ``gcc`` binary.
 

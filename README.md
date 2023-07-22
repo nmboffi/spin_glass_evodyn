@@ -1,7 +1,7 @@
 # Spin Glass Evolutionary Dynamics
 This repository contains code to reproduce the results of the publication ``Boffi Nicholas M., Guo Yipei, Rycroft Chris H., Amir Ariel (2023) How microscopic epistasis and clonal interference shape the fitness trajectory in a spin glass model of microbial long-term evolution eLife 12:RP87895 https://doi.org/10.7554/eLife.87895.1``. 
 
-It is also an extensive simulation environment for microbial evolutionary dynamics at microscopic granularity, and may be useful to the grander evolutionary dynamics community as a result.
+The code in this repository is also an extensive simulation environment for microbial evolutionary dynamics at microscopic granularity, and may be useful to the grander evolutionary dynamics community for follow-up investigations.
 
 The folder ``py`` contains many useful routines for processing the output simulation data. Some of these are directly used for producing the publication figures, while others are useful for exploratory data analysis.
 

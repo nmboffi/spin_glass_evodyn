@@ -10,7 +10,7 @@ The main simulation package requires ``openmp`` and ``GSL``; both can be install
 
 On Mac, ``openmp`` is not supported by the default C++ compiled provided by XCode. The simplest way to proceed is to install ``gcc`` via a package manager such as ``homebrew`` and compile with the corresponding ``gcc`` binary.
 
-The data analysis routines are written in Python and are built upon standard scienific Python libraries (``numpy``, ``scipy``, ``matplotlib``, etc.). ``numba`` is also used to accelerate some computations; it can be installed using ``pip`` or ``conda``.
+The data analysis routines are written in Python and are built upon standard scientific Python libraries (``numpy``, ``scipy``, ``matplotlib``, etc.). ``numba`` is also used to accelerate some computations; it can be installed using ``pip`` or ``conda``.
 
 ## Usage
 The simulation package can be compiled by running ``make``.
